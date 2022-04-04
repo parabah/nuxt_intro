@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <h1 class="text-2xl text-center">Página Principal</h1>
   </div>
 </template>
