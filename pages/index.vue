@@ -7,5 +7,8 @@
 <script>
 export default {
   name: 'IndexPage',
+  head: {
+    title: ' Principal'
+  }
 }
 </script>
