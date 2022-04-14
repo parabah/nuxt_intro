@@ -8,7 +8,17 @@
 export default {
   name: 'IndexPage',
   head: {
-    title: ' Principal'
+    htmlAttrs: {
+      lang: 'en',
+    },
+    title: ' Principal',
+    meta: [
+      { 
+        hid: 'description',
+	      name: 'description', 
+        content: 'Página principal do aplicativo' 
+      },
+    ]
   }
 }
 </script>
