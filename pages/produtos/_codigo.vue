@@ -1,7 +1,6 @@
 <template>
   <div>
-    <NavBar />
-    <Nuxt class="m-4" />
+      <p>O código do produtos é {{ $route.params.codigo}}</p>
   </div>
 </template>
 
