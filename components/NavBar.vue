@@ -3,6 +3,7 @@
       <p>Logotipo</p>
       <p class="ml-auto">
           <nuxt-link to="/">Home</nuxt-link>
+          <nuxt-link to="/produtos">Produtos</nuxt-link>
           <nuxt-link to="/about">About</nuxt-link>
           <nuxt-link to="/login">Login</nuxt-link>
       </p>

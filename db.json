@@ -1,0 +1,47 @@
+{
+  "produtos": [
+    {
+      "codigo": 1,
+      "titulo": "Tênis Reebok",
+      "descricao": "Novo tênis Rebook Royal Flag com amortecimento e exclusiva tecnologia anti impact",
+      "foto" : "https://upload.wikimedia.org/wikipedia/commons/f/f0/Reebok_Royal_Glide_Ripple_Clip_shoe.jpg",
+      "preco" : 120.00
+    },
+    {
+      "codigo": 2,
+      "titulo": "Ideal T-Shirt",
+      "descricao": "Camiseta Ideal importada, vários tamanhos",
+      "foto" : "https://upload.wikimedia.org/wikipedia/commons/3/32/Ambigram_Ideal%2C_polysymmetrical_logo_printed_on_a_green_T-shirt.jpg",
+      "preco" : 85.00
+    },
+    {
+      "codigo": 3,
+      "titulo": "Wiki-Pedia T-Shirt",
+      "descricao": "Camiseta importada Wiki-Pedia, tamanho único",
+      "foto" : "https://upload.wikimedia.org/wikipedia/commons/9/9a/Wikipedia-T-shirt.jpg",
+      "preco" : 57.00
+    },
+    {
+      "codigo": 4,
+      "titulo": "SapaTênis 3-Via",
+      "descricao": "Sapa tênis 3-Via, cor azul-marinho, vários tamanhos",
+      "foto" : "https://upload.wikimedia.org/wikipedia/commons/a/a5/Black_shoes_1.jpg",
+      "preco" : 70.00
+    },
+    {
+      "codigo": 5,
+      "titulo": "Sapato social - Pendulo",
+      "descricao": "Sapato social Pendulo - confort, cor preto, vários tamanhos",
+      "foto" : "https://live.staticflickr.com/1048/5149505803_9f1a7f36f3_z.jpg",
+      "preco" : 180.00
+    }
+  ],
+  "users": [
+    {
+      "username" : "admin",
+      "name" : "System Administrator",
+      "email" : "admin@mysite.com",
+      "avatar" : "/img/profile-photo.png"
+    }
+  ]
+}
