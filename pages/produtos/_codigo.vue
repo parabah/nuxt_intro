@@ -1,17 +1,25 @@
 <template>
-  <div>
-      <p>Detalhes do Produto</p>
-      <div v-if="!$fetchState.error">
-        <p>Codigo: {{produto.codigo}}</p>
-        <p>Titulo: {{produto.titulo}}</p>
-        <p>Descrição: {{produto.descricao}}</p>
-        <p>Preço: {{produto.preco}}</p>
-        <img :src="produto.foto" alt="">
+  <div v-if="!$fetchState.error" class="flex">
+    <img 
+      :src="produto.foto" alt=""
+      class="w-2/5 mr-1 rounded-md"
+    >
+    <div class="w-3/5">
+      <div>
+        <p class="text-2xl font-bold mb-1">{{produto.titulo}}</p>
+        <p class="text-xs mb-2">Codigo: {{produto.codigo}}</p>
+        <p class="mb-4">{{produto.descricao}}</p>
+        <p class="text-xl font-bold font-mono mb-4">{{val_preco}}</p>
+        <nuxt-link 
+          to="/produtos"
+          class="bg-blue-200 text-xs rounded-full p-4"
+        >Voltar</nuxt-link>
       </div>
-      <div v-else>
-        <p>Não foi possível carregar os ados do Produto. Por favor tente mais tarde !</p>
-        <p>Error: {{$fetchState.error.message}}</p>
-      </div>
+    </div>
+  </div>
+  <div v-else>
+    <p>Não foi possível carregar os dados do Produto. Por favor tente mais tarde !</p>
+    <p>Error: {{$fetchState.error.message}}</p>
   </div>
 </template>
 
@@ -32,6 +40,11 @@ export default {
   computed: {
     codg_prod() {
       return this.$route.params.codigo;
+    },
+    val_preco(){
+      return this.produto.preco ?
+        Intl.NumberFormat('pt-BR', { style: "currency",  currency: 'BRL'}).format(this.produto.preco) 
+        : 'Preço não definido';
     }
   },
 }

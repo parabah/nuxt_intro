@@ -13,3 +13,9 @@ export const actions = {
        commit('SET_USER', user);
     }
 }
+
+export const getters = {
+  isLogged (state) {
+    return !!state.user.username;
+  }
+}

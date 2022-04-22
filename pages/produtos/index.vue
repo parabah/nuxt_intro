@@ -1,15 +1,12 @@
 <template>
-  <div>
-      <p>Página de produtos</p>
-      <ul>
-        <li 
-          v-for="(produto, key) in produtos" 
-          :key="key">
-          <nuxt-link :to="`/produtos/${produto.codigo}`">
-           {{produto.titulo}}
-          </nuxt-link>
-        </li>
-      </ul>
+  <div class="flex flex-col items-center">
+      <p class="text-2xl font-semibold mb-4">Relação de produtos</p>
+      <nuxt-link 
+        v-for="(produto, key) in produtos" :key="key" :to="`/produtos/${produto.codigo}`"
+        class="hover:bg-blue-800 hover:text-white border w-64 rounded-md p-1"
+      >
+        {{produto.titulo}}
+      </nuxt-link>
   </div>
 </template>
 
