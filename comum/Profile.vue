@@ -7,6 +7,7 @@
     >
     <ProfileDetails v-show="showDetails"/>
     </div>
+    <nuxt-link v-else to="/login">Login</nuxt-link>
   </div>
 </template>
 

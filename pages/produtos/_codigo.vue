@@ -31,7 +31,7 @@ export default {
     }
   },
   fetch(){
-    return this.$axios.get(`http://localhost:5000/produtos?codigo=${this.codg_prod}`)
+    return this.$axios.get(`https://my-json-server.typicode.com/parabah/nuxt_intro/produtos?codigo=${this.codg_prod}`)
       .then(response => {
         this.produto = response.data[0];
         return true;

@@ -13,7 +13,7 @@
 <script>
 export default {
   asyncData(context) {
-    return context.$axios.get('http://localhost:5000/produtos')
+    return context.$axios.get('https://my-json-server.typicode.com/parabah/nuxt_intro/produtos')
       .then(response => {
         return {
           produtos: response.data

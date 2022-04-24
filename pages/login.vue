@@ -24,7 +24,7 @@ export default {
   name: 'LoginPage',
   layout: 'no-nav',
   async fetch(){
-    return await this.$axios.get('http://localhost:5000/users')
+    return await this.$axios.get('https://my-json-server.typicode.com/parabah/nuxt_intro/users')
       .then(response => {
         this.$store.dispatch('setUser',response.data[0]);
     })
