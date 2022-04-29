@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/produtos/4", {data:[{},{}],fetch:{"0":{produto:{codigo:4,titulo:"SapaTênis 3-Via",descricao:"Sapa tênis 3-Via, cor azul-marinho, vários tamanhos",foto:"https:\u002F\u002Fupload.wikimedia.org\u002Fwikipedia\u002Fcommons\u002Fa\u002Fa5\u002FBlack_shoes_1.jpg",preco:70}}},mutations:[]});

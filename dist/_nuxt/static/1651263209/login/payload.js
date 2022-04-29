@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/login", {data:[{}],fetch:{"LoginPage:0":{}},mutations:[["SET_USER",{username:"admin",name:"System Administrator",email:"admin@mysite.com",avatar:"\u002Fimg\u002Fprofile-photo.png"}]]});

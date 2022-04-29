@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/produtos/2", {data:[{},{}],fetch:{"0":{produto:{codigo:2,titulo:"Ideal T-Shirt",descricao:"Camiseta Ideal importada, vários tamanhos",foto:"https:\u002F\u002Fupload.wikimedia.org\u002Fwikipedia\u002Fcommons\u002F3\u002F32\u002FAmbigram_Ideal%2C_polysymmetrical_logo_printed_on_a_green_T-shirt.jpg",preco:85}}},mutations:[]});

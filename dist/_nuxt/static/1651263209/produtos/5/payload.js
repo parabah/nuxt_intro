@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/produtos/5", {data:[{},{}],fetch:{"0":{produto:{codigo:5,titulo:"Sapato social - Pendulo",descricao:"Sapato social Pendulo - confort, cor preto, vários tamanhos",foto:"https:\u002F\u002Flive.staticflickr.com\u002F1048\u002F5149505803_9f1a7f36f3_z.jpg",preco:180}}},mutations:[]});

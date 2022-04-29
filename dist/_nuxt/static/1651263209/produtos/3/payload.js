@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/produtos/3", {data:[{},{}],fetch:{"0":{produto:{codigo:3,titulo:"Wiki-Pedia T-Shirt",descricao:"Camiseta importada Wiki-Pedia, tamanho único",foto:"https:\u002F\u002Fupload.wikimedia.org\u002Fwikipedia\u002Fcommons\u002F9\u002F9a\u002FWikipedia-T-shirt.jpg",preco:57}}},mutations:[]});
